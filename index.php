@@ -1,3 +1,8 @@
+<?php
+$name = "Asad MOhamed Abdi";
+$job = "Web Developer";
+$year = date('Y');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +14,12 @@
 <body>
   <div class="card">
     <img src="asad.png" alt="Profile Photo">
-    <h1> Asad Mohamed Abdi</h1>
-    <p class="job"> Web developer</p>
+    <h1> <?php echo $name; ?></h1>
+    <p class="job"><?php echo $job; ?></p>
     <p class="bio"> Waxaan jecelahay coding iyo technology </p>
     <button> Contact Me </button>
-  <div id="message"></div>
+    <div id="message"></div>
+    <p class="footer"> <?php echo $year; ?> </p> 
   </div>
  
   <script src="script.js"></script>
