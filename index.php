@@ -13,6 +13,9 @@
     <p class="job"> Web developer</p>
     <p class="bio"> Waxaan jecelahay coding iyo technology </p>
     <button> Contact Me </button>
+  <div id="message"></div>
   </div>
+ 
+  <script src="script.js"></script>
 </body>
 </html>
